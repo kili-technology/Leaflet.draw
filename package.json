@@ -26,15 +26,6 @@
 	},
 	"main": "dist/leaflet.draw.js",
 	"style": "dist/leaflet.draw.css",
-	"directories": {
-		"doc": "docs/",
-		"example": "docs/example",
-		"lib": "src/"
-	},
-	"files": [
-		"dist/*",
-		"docs/*"
-	],
 	"scripts": {
 		"build": "jake build -f ./Jakefile.js",
 		"test": "jake test",
