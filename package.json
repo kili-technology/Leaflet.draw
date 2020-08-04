@@ -37,7 +37,6 @@
 	],
 	"scripts": {
 		"build": "jake build -f ./Jakefile.js",
-		"postinstall": "npm run build",
 		"test": "jake test",
 		"docs": "jake docs",
 		"release": "./build/publish.sh"
