@@ -26,9 +26,11 @@
 	},
 	"main": "dist/leaflet.draw.js",
 	"style": "dist/leaflet.draw.css",
+	"files": [
+		"dist/*"
+	],
 	"scripts": {
 		"build": "jake build -f ./Jakefile.js",
-		"install": "npm run build",
 		"test": "jake test",
 		"docs": "jake docs",
 		"release": "./build/publish.sh"
